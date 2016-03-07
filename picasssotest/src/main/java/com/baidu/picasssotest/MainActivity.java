@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
         list.add("http://i.imgur.com/DvpvklR.png");
         list.add("http://i.imgur.com/DvpvklR.png");
         list.add("http://i.imgur.com/DvpvklR.png");
+        list.add("http://i.imgur.com/DvpvklR.png");
         myAdapter = new MyAdapter(list, this);
 
         listView.setAdapter(myAdapter);

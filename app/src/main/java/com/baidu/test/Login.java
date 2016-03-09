@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -30,6 +31,7 @@ public class Login extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.tv);
         editText2 = (EditText) findViewById(R.id.t2);
         button = (Button) findViewById(R.id.bt);
+        Log.i("tag","下种子");
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
